@@ -1,0 +1,12 @@
+node_modules
+.next
+.env
+.env.*
+!.env.example
+pnpm-lock.yaml
+dist
+coverage
+*.pyc
+__pycache__
+media
+apps/animation-service/.venv

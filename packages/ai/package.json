@@ -1,0 +1,21 @@
+{
+  "name": "@tutoros/ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --emitDeclarationOnly",
+    "test": "vitest run",
+    "lint": "echo 'no lint for ai'"
+  },
+  "dependencies": {
+    "@tutoros/types": "workspace:*",
+    "openai": "^4.68.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.1"
+  }
+}

@@ -1,0 +1,18 @@
+[project]
+name = "tutoros-animation-service"
+version = "0.1.0"
+description = "Manim rendering microservice for TutorOS"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.31.0",
+  "sqlalchemy>=2.0.35",
+  "pydantic>=2.9.2",
+  "manim>=0.18.1",
+  "python-multipart>=0.0.9"
+]
+
+[tool.uvicorn]
+factory = false
+host = "0.0.0.0"
+port = 8001
