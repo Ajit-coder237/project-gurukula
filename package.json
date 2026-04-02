@@ -1,0 +1,20 @@
+{
+  "name": "tutoros",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "db:generate": "pnpm --filter @tutoros/db db:generate",
+    "db:migrate": "pnpm --filter @tutoros/db db:migrate",
+    "db:seed": "pnpm --filter @tutoros/db db:seed"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.3",
+    "typescript": "^5.6.2"
+  }
+}

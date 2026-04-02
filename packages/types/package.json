@@ -1,0 +1,16 @@
+{
+  "name": "@tutoros/types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --emitDeclarationOnly",
+    "test": "vitest run",
+    "lint": "echo 'no lint for types'"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.1"
+  }
+}
